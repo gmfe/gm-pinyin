@@ -2,14 +2,14 @@
   "name": "gm-pinyin",
   "version": "3.0.0",
   "description": "",
-  "main": "lib/web-pinyin.js",
+  "main": "dist/pinyin.js",
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {
-    "object-assign": "^4.1.0"
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
